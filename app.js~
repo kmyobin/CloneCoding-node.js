@@ -1,0 +1,5 @@
+var express = require('express') // express 관련 파일 가져옴, 반환값이 함수 형태
+var app = express() // express는 함수
+app.listen(3000, function() {
+	console.log("start! express server on port 3000");
+});
